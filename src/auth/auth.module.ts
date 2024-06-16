@@ -22,7 +22,7 @@ import { ConfigModule } from '@nestjs/config';
 
     JwtModule.register({
       global: true,
-      secret: process.env.JWT_SEED ,
+      secret: 'eSTA_ES_la_cLABE_$3CR3t4' ,
       signOptions: {expiresIn: '6h'},
     })
 
